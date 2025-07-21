@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nossos Imóveis - Carla Venancio</title>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel="stylesheet" href="/imovel/imovel.css" >
+   
+        
+        <script src="/database.js" defer></script>
+        <script src="/global.js" defer></script>
+        <script src="/imovel/imoveis.js" defer></script>
+    </head>
+<body>
+    
+    <header class="cabeça">
+        <div class="logo-container">
+            <img src="/img/logo_com_cor-removebg-preview.png" alt="logo" id="logoo">
+            <h1 id="nome">Carla Venancio <br> Corretora de imóveis</h1>
+        </div>
+        <nav class="opsbarra">
+            <a href="/home/index.html">Home</a>
+            <a href="/imovel/imovel1.html">Imóveis</a>
+            <!--<a href="#">Dúvidas frequentes</a>-->
+            <a href="#contato">Entre em contato</a>
+        </nav>
+    </header>
+
+    <div class="pagina-container">
+        
+        <aside class="painel-filtros">
+            <div class="filtro-grupo">
+                <label>Localização do imóvel</label>
+                <input type="text" placeholder="Digite o bairro ou cidade">
+            </div>
+            <div class="filtro-grupo">
+                <label>Tipo de imóvel</label>
+                <input type="text" placeholder="Ex: Apartamento, Casa">
+            </div>
+            <div class="filtro-grupo">
+                <label>Preço</label>
+                <div class="input-duplo">
+                    <input type="text" placeholder="MÍN.">
+                    <input type="text" placeholder="MÁX.">
+                </div>
+            </div>
+            <div class="filtro-grupo">
+                <label>Quantidade de quartos</label>
+                <div class="botoes-selecao" id="filtro-quartos">  <span>1</span><span>2</span><span>3</span><span>4</span><span>5+</span>
+                </div>
+            </div>
+            <div class="filtro-grupo">
+                <label>Área (m²)</label>
+                <div class="input-duplo">
+                    <input type="text" placeholder="MÍN.">
+                    <input type="text" placeholder="MÁX.">
+                </div>
+            </div>
+            <div class="filtro-grupo">
+                <label>Número de banheiros</label>
+                <div class="botoes-selecao" id="filtro-banheiros"> <span>1</span><span>2</span><span>3+</span>
+                </div>
+            </div>
+            <div class="filtro-grupo-checkbox">
+                <h3>Cômodos</h3>
+                <label><input type="checkbox"> Cozinha</label>
+                <label><input type="checkbox"> Sala de Estar</label>
+                <label><input type="checkbox"> Sala de Jantar</label>
+                <label><input type="checkbox"> Sacada</label>
+            </div>
+             <div class="filtro-grupo-checkbox">
+                <h3>Lazer e Esporte</h3>
+                <label><input type="checkbox"> Piscina</label>
+                <label><input type="checkbox"> Churrasqueira</label>
+                <label><input type="checkbox"> Salão de Festas</label>
+                <label><input type="checkbox"> Academia</label>
+            </div>
+             <div class="filtro-grupo-checkbox">
+                <h3>Comodidades e Serviços</h3>
+                <label><input type="checkbox"> Elevador</label>
+                <label><input type="checkbox"> Portaria 24h</label>
+                <label><input type="checkbox"> Gás Canalizado</label>
+            </div>
+
+            <button class="botao-pesquisar">Pesquisar</button>
+        </aside>
+
+        <main class="lista-imoveis">
+            <div class="paginacao">
+                <span>&lt;&lt;</span>
+                <span class="ativo">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>...</span>
+                <span>7</span>
+                <span>&gt;&gt;</span>
+            </div>
+        </main>
+    </div>
+
+    <div id="rodape-placeholder"></div>
+    <div id="popup-placeholder"></div>
+    <div id="rodape-placeholder"></div>
+    
+
+
+</body>
+</html>

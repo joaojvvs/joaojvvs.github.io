@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabeça {
+    background-color: white;
+    height: 85px;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 2%; 
+    box-sizing: border-box; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+#logoo {
+    width: 115px;
+    height: auto;
+}
+
+#nome {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.opsbarra {
+    display: flex;
+}
+
+.opsbarra a {
+    margin: 0 15px; 
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none; 
+    color: #333;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #fff;
+}
+
+.corpo {
+    margin-top:-10px ;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px; 
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.imovel-container {
+    display: flex;
+    gap: 30px; 
+}
+
+.coluna-esquerda {
+    flex: 2; 
+    min-width: 0;
+}
+
+.coluna-direita {
+    flex: 1; 
+}
+
+.imagem-principal {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.miniaturas {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    overflow-x: auto; 
+    padding-bottom: 10px;
+
+}
+
+
+.miniatura {
+    width: 100px;
+    height: 75px;
+    object-fit: contain;
+    background-color: #f0f0f0; 
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.miniatura.ativa {
+    border-color: rgba(236, 116, 6);
+}
+
+/* Especificações */
+.especificacoes h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.subtitulo-imovel {
+    color: #777;
+    margin-top: 0;
+}
+.specs-principais {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.especificacoes h3 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.especificacoes ul {
+    list-style: none;
+    padding-left: 0;
+}
+.especificacoes li::before {
+    content: '•';
+    color: rgba(236, 116, 6);
+    margin-right: 10px;
+}
+
+.info-financeira {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.info-item:last-child {
+    border-bottom: none;
+}
+.info-item label {
+    font-weight: bold;
+    color: #333;
+}
+.info-item p {
+    margin: 0;
+    color: #555;
+}
+
+.botao-simular {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: rgba(236, 116, 6);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.imoveis-semelhantes, .localizacao {
+    margin-top: 50px;
+    text-align: center;
+}
+.mapa-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.rodape {
+  background-color: black;
+  color: white;
+  padding: 20px 20px; 
+  text-align: center;
+}
+
+.contato-rodape h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.contato-rodape p {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.contato-rodape a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contato-rodape a:hover {
+  color: rgba(236, 116, 6); 
+}
+
+.carrossel {
+    margin-top: 15px;
+}

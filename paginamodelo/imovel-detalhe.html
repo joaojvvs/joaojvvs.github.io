@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Imóvel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="/home/fy.css">
+    <link rel="stylesheet" href="/paginamodelo/1carro.css">
+
+</head>
+<body>
+
+    <header class="cabeça">
+        <div class="logo-container">
+            <img src="/img/logo_com_cor-removebg-preview.png" alt="logo" id="logoo">
+            <div id="nome">Carla Venancio <br> Corretora de imóveis</div>
+        </div>
+        <nav class="opsbarra">
+            <a href="/home/index.html">Home</a>
+            <a href="/imovel/imovel1.html">Imóveis</a>
+            <!--<a href="#">Dúvidas frequentes</a>-->
+            <a href="#contato">Entre em contato</a>
+        </nav>
+    </header>
+
+    <main class="corpo">
+        <p id="breadcrumb" class="breadcrumb"></p>
+
+        <div class="imovel-container">
+            <div class="coluna-esquerda">
+                <section class="galeria">
+                    <img src="" alt="Foto principal do imóvel" id="imagem-destaque" class="imagem-principal">
+                    <div id="miniaturas-container" class="miniaturas"></div>
+                </section>
+                <section class="especificacoes">
+                    <h2 id="imovel-titulo"></h2>
+                    <div id="specs-principais" class="specs-principais"></div>
+                    
+                    <h3>Descrição:</h3>
+                    <p id="imovel-descricao"></p>
+
+                    <h3>Detalhes do imóvel:</h3>
+                    <ul id="lista-topicos"></ul>
+
+                    <h3>Detalhes adicionais:</h3>
+                    <ul id="lista-comodidades"></ul>
+
+                </section>
+            </div>
+            <div class="coluna-direita">
+                <aside class="info-financeira">
+                    <div class="info-item">
+                        <label>Valor do imóvel:</label>
+                        <p id="imovel-preco"></p>
+                    </div>
+                    <div class="info-item">
+                        <label>Condomínio:</label>
+                        <p id="imovel-condominio"></p>
+                    </div>
+                    <div class="info-item">
+                        <label>IPTU:</label>
+                        <p id="imovel-iptu"></p>
+                    </div>
+                    <div class="info-item">
+                        <label>Financiamento:</label>
+                        <p id="imovel-financiamento"></p>
+                    </div>
+                     <div class="info-item">
+                        <label>Área total:</label>
+                        <p id="imovel-area-total"></p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <div class="carrossel">
+            <div class="slider">
+                <button id="prev-slide" class="slide-button material-symbols-rounded">
+                    chevron_left
+                </button>                   
+                  <div class="list">
+                    
+                    
+                    </div>
+                     
+<button id="next-slide" class="slide-button material-symbols-rounded">
+    chevron_right
+</button>
+                                  </div>
+ </div>
+    </main>
+
+    <div id="rodape-placeholder"></div>
+    <div id="popup-placeholder"></div>
+    <div id="rodape-placeholder"></div>
+
+    <script src="/home/teste.js"></script>
+    <script src="/database.js"></script>
+    <script src="/global.js"></script>
+    <script src="/paginamodelo/imovel-detalhe.js"></script> 
+
+</body>
+</html>

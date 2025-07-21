@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.cabeça {
+    background-color: white;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+#logoo {
+    width: 115px;
+    height: auto;
+}
+#nome {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.opsbarra {
+    display: flex;
+}
+.opsbarra a {
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagina-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 20px 40px 20px;
+    gap: 30px;
+}
+
+.painel-filtros {
+    flex: 1;
+    background-color: rgb(247, 147, 29);
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+    min-width: 280px;
+    color: white;
+}
+.filtro-grupo, .filtro-grupo-checkbox {
+    margin-bottom: 20px;
+}
+.filtro-grupo > label, .filtro-grupo-checkbox h3 {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.filtro-grupo input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.input-duplo {
+    display: flex;
+    gap: 10px;
+}
+.botoes-selecao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.botoes-selecao span {
+    padding: 8px 14px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+.botoes-selecao span.ativo, .botoes-selecao span:hover {
+    background-color: white;
+    color: rgb(247, 147, 29);
+}
+.filtro-grupo-checkbox label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.filtro-grupo-checkbox input[type="checkbox"] {
+    margin-right: 8px;
+}
+.botao-pesquisar {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    color: rgb(247, 147, 29);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.lista-imoveis {
+    flex: 3;
+    min-width: 0;
+}
+.card-imovel {
+    display: flex;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    transition: box-shadow 0.2s ease;
+}
+.card-imovel:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.card-imovel img {
+    width: 220px;
+    min-width: 220px;
+    height: 160px;
+    object-fit: cover;
+}
+.card-info {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+}
+.card-info h2 {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
+.card-info .endereco {
+    font-size: 13px;
+    color: #777;
+    margin: 0 0 10px 0;
+}
+.card-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 13px;
+    color: #555;
+    margin: auto 0 10px 0;
+}
+.card-info .preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.link-contato {
+    margin-top: 10px;
+    color: rgba(236, 116, 6);
+    font-weight: bold;
+    font-size: 14px;
+    align-self: flex-end; 
+    margin-top: auto; 
+
+}
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.paginacao span {
+    padding: 8px 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+}
+.paginacao span.ativo, .paginacao span:hover {
+    background-color: rgba(236, 116, 6);
+    color: white;
+    border-color: rgba(236, 116, 6);
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+}
+.contato-rodape h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contato-rodape p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.contato-rodape a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.contato-rodape a:hover {
+    color: rgba(236, 116, 6);
+}
+
+.popup-overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.popup-overlay.ativo {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    position: relative;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+.popup-overlay.ativo .popup-content {
+    transform: scale(1);
+}
+
+.popup-content h2 {
+    font-size: 24px;
+    color: rgba(236, 116, 6);
+    margin-top: 0;
+}
+
+.popup-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.popup-info-item {
+    margin: 20px 0;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.popup-info-item strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.popup-info-item p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.fechar-popup {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #aaa;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.botao-whatsapp {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #25D366; 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.2s;
+}
+
+.botao-whatsapp:hover {
+    background-color: #1EBE57;
+}

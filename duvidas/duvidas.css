@@ -1,0 +1,145 @@
+#logoo
+{
+    width: 115.58px;
+    float: left;
+    margin-left: 7%;
+    margin-top: 5px;
+}
+
+#nome{
+    width: 200px;
+    float: left;
+    margin-left: 1.5%;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.opsbarra
+{
+    margin-left: 500px;
+    background-position: center;
+    background-size: cover;
+    width: 67%;
+    background-color: white;
+    height: 85px;
+
+   
+}
+
+#um,#dois,#tres,#quatro
+{ 
+    margin-block-start: auto;
+    font-weight: lighter;
+    margin-left:6%;
+    margin-top: 2.5%;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: lighter;
+    
+    font-weight: lighter;
+
+}
+
+
+#menu
+{
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+#Dica {
+    font-family: 'Montserrat';
+    color: 	rgba(236, 116, 6);
+    text-align: center;
+    margin-top: 60px;
+}
+
+#duvidas {
+    font-family: 'Montserrat';
+    color: 	rgba(236, 116, 6);
+    text-align: center;
+    margin-top: 150px;
+}
+.container
+{
+    background-color: 	rgb(255,152,46);
+    border-radius: 20px;
+
+}
+
+
+#text-1
+{
+    font-family: 'Montserrat';
+    margin-block-end: auto;
+    font-weight: lighter;
+    color: white; 
+    margin-left: 12px;
+    font-size: 15px;
+    text-align: center;
+
+}
+.slider .list
+{
+   display: grid; 
+   grid-template-columns:repeat(10,1fr);
+   gap: 50px;
+   overflow-x: auto;
+   scrollbar-width: none;
+}
+
+.slider .list::webkit-scrollbar{
+    display: none;
+}
+
+.slider .list .container
+{
+    margin-top: 60px;
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.carrossel
+{
+    align-items: center;
+    max-width:max-content;
+    width: 90%;
+
+}
+
+.slider {
+
+    margin-left:100px;
+}
+
+#textos5{
+    font-family: 'Montserrat';
+    margin-block-end: auto;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.rodape{
+    background-color: black;
+    width: 99%;
+    position: absolute;
+    margin-top: 200px;
+    }
+
+    #fava{
+        font-weight: lighter;
+        margin-left:6%;
+        font-family: 'Montserrat';
+        font-size: 15px;
+        color: white;
+    }
+    
