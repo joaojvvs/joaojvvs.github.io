@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // 1. CAPTURAR O ID DA URL
     const urlParams = new URLSearchParams(window.location.search);
     const imovelId = parseInt(urlParams.get('id'));
 
@@ -9,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // 2. ENCONTRAR O IMÓVEL NO BANCO DE DADOS
     const imovel = imoveisDB.find(item => item.id === imovelId);
 
     if (!imovel) {
@@ -17,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    // 3. PREENCHER A PÁGINA COM OS DADOS
     document.title = imovel.titulo;
     document.getElementById('breadcrumb').textContent = `${imovel.endereco.join(', ')} - Cód. ${imovel.id}`;
 
@@ -85,5 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('imovel-condominio').textContent = condominioValor;
     
     const iptuValor = imovel.iptu ? imovel.iptu.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) : 'Não informado';
-    document.getElementById('imovel-iptu').textContent = iptuValor;
+    document.getElementById('imovel-iptu').textContent = iptuValor;   
+     document.getElementById('imovel-preco2').textContent = imovel.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
 });

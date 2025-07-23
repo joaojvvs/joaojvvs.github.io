@@ -466,3 +466,69 @@ a:link{
 .botao-whatsapp:hover {
     background-color: #1EBE57;
 }
+@media (max-width: 768px) {
+
+    .cabeça {
+        flex-direction: column; 
+        height: auto;          
+        padding: 10px 2%;
+    
+    }
+
+    #nome {
+        display: none; 
+    }
+
+    .opsbarra a {
+        margin: 5px 8px; 
+        font-size: 14px;
+    }
+
+    .info-financeira{
+        display: none;
+    }
+   
+    .corpo {
+        margin-top: 110px; 
+    }
+
+    
+    .container-principal {
+        flex-direction: column; 
+        gap: 30px;
+    }
+
+    .caixa-busca h1 {
+        font-size: 24px; 
+    }
+    
+   
+    .sobre-mim-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .sobre-mim-texto {
+        text-align: left; 
+    }
+    .sobre-mim-foto{
+        display: none;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .opsbarra {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    .card-imovel {
+        flex: 0 0 85%; 
+    }
+
+    .corretores-container {
+        gap: 20px;
+    }
+}

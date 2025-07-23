@@ -324,3 +324,58 @@ body {
 .botao-whatsapp:hover {
     background-color: #1EBE57;
 }
+@media (max-width: 816px) {
+
+    .cabeça {
+        flex-direction: column; 
+        height: auto;         
+        padding: 10px 2%;
+    }
+
+    #nome {
+        display: none; 
+    }
+
+    .opsbarra a {
+        margin: 5px 8px;
+        font-size: 14px;
+    }
+
+    .corpo {
+        margin-top: 110px; 
+    }
+    .link-contato{
+        display: none;
+    }
+    .painel-filtros{
+        
+            flex: none;
+            width: 100%;
+            max-width: none; 
+        
+    }
+        .pagina-container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    
+    
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .opsbarra {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   
+    .card-imovel {
+        flex: 0 0 85%; 
+    }
+
+
+}
