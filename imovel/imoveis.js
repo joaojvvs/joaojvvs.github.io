@@ -48,13 +48,10 @@ const filtrosAdicionais = document.getElementById('filtros-adicionais');
 
 if (toggleButton && filtrosAdicionais) {
     toggleButton.addEventListener('click', () => {
-        // Adiciona ou remove a classe 'aberto' do container de filtros
         filtrosAdicionais.classList.toggle('aberto');
         
-        // Adiciona ou remove a classe 'ativo' do botão (para girar a seta)
         toggleButton.classList.toggle('ativo');
 
-        // Muda o texto do botão
         const textoBotao = toggleButton.querySelector('span:first-child');
         if (filtrosAdicionais.classList.contains('aberto')) {
             textoBotao.textContent = 'Menos filtros';

@@ -238,6 +238,19 @@ main {
 
 @media (max-width: 768px) {
 
+    
+    .cabeça {
+        height: 70px;          
+        padding: 0 15px;
+    
+    }
+    .opsbarra a {
+        margin: 0 8px; 
+        font-size: 14px;
+    }
+    #logoo{
+        width: 90px;
+    }
     main {
         padding-left: 0;
         padding-right: 0;
