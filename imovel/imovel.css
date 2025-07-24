@@ -27,7 +27,7 @@ body {
 }
 #logoo {
     width: 115px;
-    height: auto;
+    height: auto; 
 }
 #nome {
     font-weight: lighter;
@@ -324,12 +324,57 @@ body {
 .botao-whatsapp:hover {
     background-color: #1EBE57;
 }
+.botao-toggle {
+    display: none;
+}
 @media (max-width: 816px) {
 
+    .botao-toggle {
+        display: none;
+    }
+    
+    
+    @media (max-width: 799px) {
+    
+  
+        .botao-toggle {
+            display: flex; 
+            background: none;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+            margin: 10px 0;
+            font-size: 14px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    
+        .botao-toggle .seta {
+            transition: transform 0.3s ease;
+        }
+    
+        .botao-toggle.ativo .seta {
+            transform: rotate(180deg);
+        }
+    
+        #filtros-adicionais {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+    
+        #filtros-adicionais.aberto {
+            max-height: 1000px; 
+        }
+    }
     .cabeça {
-        flex-direction: column; 
-        height: auto;         
-        padding: 10px 2%;
+        height: 70px;       
+        padding: 0 15px;
     }
 
     #nome {
@@ -337,7 +382,7 @@ body {
     }
 
     .opsbarra a {
-        margin: 5px 8px;
+        margin: 0 8px;
         font-size: 14px;
     }
 
@@ -359,10 +404,38 @@ body {
             padding-right: 15px;
         }
     
+        .cabeça {
+            height: 70px;          
+            padding: 0 15px;
+        
+        }
+    
+        #nome {
+            display: none; 
+        }
+    
+        .opsbarra a {
+            margin: 0 8px; 
+            font-size: 14px;
+        }
+    
+        #logoo{
+            width: 90px;
+        }
     
 
 }
+@media (max-width: 600px) {
 
+    .card-imovel {
+        flex-direction: column; 
+    }
+
+    .card-imovel img {
+        width: 100%; 
+        height: 200px; 
+    }
+}
 
 
 @media (max-width: 480px) {

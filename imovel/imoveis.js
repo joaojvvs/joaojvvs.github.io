@@ -35,14 +35,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const botaoPesquisar = document.querySelector('.botao-pesquisar');
     const filtroLocalizacao = document.querySelector('.painel-filtros input[placeholder="Digite o bairro ou cidade"]');
     const filtroTipo = document.querySelector('.painel-filtros input[placeholder="Ex: Apartamento, Casa"]');
-    const filtroPrecoMin = document.querySelector('.filtro-grupo:nth-child(3) input[placeholder="MÍN."]');
-    const filtroPrecoMax = document.querySelector('.filtro-grupo:nth-child(3) input[placeholder="MÁX."]');
-    const filtroAreaMin = document.querySelector('.filtro-grupo:nth-child(5) input[placeholder="MÍN."]');
-    const filtroAreaMax = document.querySelector('.filtro-grupo:nth-child(5) input[placeholder="MÁX."]');
+    const filtroPrecoMin = document.querySelector('.filtro-preco input[placeholder="MÍN."]');
+    const filtroPrecoMax = document.querySelector('.filtro-preco input[placeholder="MÁX."]');
+    const filtroAreaMin = document.querySelector('.filtro-area input[placeholder="MÍN."]');
+    const filtroAreaMax = document.querySelector('.filtro-area input[placeholder="MÁX."]');
     const grupoBotoesQuartos = document.querySelector('#filtro-quartos');
     const grupoBotoesBanheiros = document.querySelector('#filtro-banheiros');
     const filtroComodidades = document.querySelectorAll('.filtro-grupo-checkbox input[type="checkbox"]');
 
+    const toggleButton = document.getElementById('toggle-filtros');
+const filtrosAdicionais = document.getElementById('filtros-adicionais');
+
+if (toggleButton && filtrosAdicionais) {
+    toggleButton.addEventListener('click', () => {
+        // Adiciona ou remove a classe 'aberto' do container de filtros
+        filtrosAdicionais.classList.toggle('aberto');
+        
+        // Adiciona ou remove a classe 'ativo' do botão (para girar a seta)
+        toggleButton.classList.toggle('ativo');
+
+        // Muda o texto do botão
+        const textoBotao = toggleButton.querySelector('span:first-child');
+        if (filtrosAdicionais.classList.contains('aberto')) {
+            textoBotao.textContent = 'Menos filtros';
+        } else {
+            textoBotao.textContent = 'Mais filtros';
+        }
+    });
+}
     function renderizarImoveis(listaDeImoveis) {
         containerResultados.innerHTML = '';
         if (listaDeImoveis.length === 0) {

@@ -151,7 +151,8 @@ body {
 }
 
 .card-imovel {
-    flex: 0 0 290px;
+    flex: 0 0 calc(33.33% - 20px);
+    min-width: 280px;
     background-color: rgb(255, 152, 46);
     border-radius: 20px;
     overflow: hidden;
@@ -469,9 +470,8 @@ a:link{
 @media (max-width: 768px) {
 
     .cabeça {
-        flex-direction: column; 
-        height: auto;          
-        padding: 10px 2%;
+        height: 70px;          
+        padding: 0 15px;
     
     }
 
@@ -480,8 +480,12 @@ a:link{
     }
 
     .opsbarra a {
-        margin: 5px 8px; 
+        margin: 0 8px; 
         font-size: 14px;
+    }
+
+    #logoo{
+        width: 90px;
     }
 
     .info-financeira{
@@ -514,6 +518,20 @@ a:link{
     .sobre-mim-foto{
         display: none;
     }
+@media (max-width: 900px) {
+    .card-imovel {
+        flex-basis: calc(50% - 15px);
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .card-imovel {
+        flex-basis: 85%;
+        min-width: 0; 
+    }
+}
 }
 
 
