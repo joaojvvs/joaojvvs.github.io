@@ -275,7 +275,8 @@ a:link{
 
 .sobre-mim-texto {
     flex: 1; 
-    min-width: 300px; 
+    min-width: 300px;
+    text-align: justify; 
 }
 
 .sobre-mim-texto h2 {
