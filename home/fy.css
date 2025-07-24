@@ -467,6 +467,9 @@ a:link{
 .botao-whatsapp:hover {
     background-color: #1EBE57;
 }
+.texto-curto {
+    display: none;
+}
 @media (max-width: 768px) {
 
     .cabeça {
@@ -474,6 +477,8 @@ a:link{
         padding: 0 15px;
     
     }
+  
+
 
     #nome {
         display: none; 
@@ -518,10 +523,16 @@ a:link{
     .sobre-mim-foto{
         display: none;
     }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     .card-imovel {
         flex-basis: calc(50% - 15px);
         min-width: 250px;
+    }
+    .texto-completo {
+        display: none;
+    }
+    .texto-curto {
+        display: inline; 
     }
 }
 

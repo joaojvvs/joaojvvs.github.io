@@ -327,12 +327,15 @@ body {
 .botao-toggle {
     display: none;
 }
+.texto-curto {
+    display: none;
+}
 @media (max-width: 816px) {
 
     .botao-toggle {
         display: none;
     }
-    
+
     
     @media (max-width: 799px) {
     
@@ -427,6 +430,12 @@ body {
 }
 @media (max-width: 600px) {
 
+    .texto-completo {
+        display: none;
+    }
+    .texto-curto {
+        display: inline; 
+    }
     .card-imovel {
         flex-direction: column; 
     }
