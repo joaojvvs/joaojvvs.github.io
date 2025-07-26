@@ -97,7 +97,7 @@ const imoveisDB = [
     },
     { 
         id: 6, 
-        titulo: "Apartamento, 3 quartos à venda ", 
+        titulo: "Apartamento Tipo, 3 quartos à venda ", 
         endereco: ['Liberdade', 'Belo Horizonte'], 
         imagens: ["/img/006/InShot_20241227_153317820.jpg","/img/006/InShot_20241227_153350393.jpg","/img/006/InShot_20241227_153411707.jpg","/img/006/InShot_20241227_153426300.jpg","/img/006/InShot_20241227_153441274.jpg","/img/006/InShot_20241227_153455892.jpg","/img/006/InShot_20241227_153508521.jpg","/img/006/InShot_20241227_153522971.jpg"], 
         link_detalhes: "/carrossel/6-carrossel/6carro.html", 
