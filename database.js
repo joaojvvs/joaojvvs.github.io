@@ -97,7 +97,7 @@ const imoveisDB = [
     },
     { 
         id: 6, 
-        titulo: "Apartamento Rua Boaventura, 3 quartos à venda ", 
+        titulo: "Apartamento, 3 quartos à venda ", 
         endereco: ['Liberdade', 'Belo Horizonte'], 
         imagens: ["/img/006/InShot_20241227_153317820.jpg","/img/006/InShot_20241227_153350393.jpg","/img/006/InShot_20241227_153411707.jpg","/img/006/InShot_20241227_153426300.jpg","/img/006/InShot_20241227_153441274.jpg","/img/006/InShot_20241227_153455892.jpg","/img/006/InShot_20241227_153508521.jpg","/img/006/InShot_20241227_153522971.jpg"], 
         link_detalhes: "/carrossel/6-carrossel/6carro.html", 
@@ -116,7 +116,7 @@ const imoveisDB = [
     },
     { 
         id: 7, 
-        titulo: "Cobertura Rua Cacuera, 4 quartos à venda ", 
+        titulo: "Cobertura, 4 quartos à venda ", 
         endereco: ['Pampulha', 'Belo Horizonte'], 
         imagens: ["/img/007/InShot_20250715_144650199.jpg","/img/007/InShot_20250715_144708665.jpg","/img/007/InShot_20250715_144732701.jpg","/img/007/InShot_20250715_144754393.jpg","/img/007/InShot_20250715_144817242.jpg","/img/007/InShot_20250715_144109183.jpg","/img/007/InShot_20250715_144225286.jpg","/img/007/InShot_20250715_144247921.jpg","/img/007/InShot_20250715_144345073.jpg","/img/007/InShot_20250715_144414032.jpg", "/img/007/InShot_20250715_144502478.jpg"], 
         link_detalhes: "/carrossel/7-carrossel/7carro.html", 
@@ -135,7 +135,7 @@ const imoveisDB = [
     },
     { 
         id: 8, 
-        titulo: "Área Privativa Aeroporto, 2 quartos à venda", 
+        titulo: "Área Privativa, 2 quartos à venda", 
         endereco: ['Aeroporto', 'Belo Horizonte'], 
         imagens: ["/img/008/InShot_20250318_162311183.jpg", "/img/008/InShot_20250318_162344997.jpg","/img/008/InShot_20250318_162400216.jpg", "/img/008/InShot_20250318_162414277.jpg","/img/008/InShot_20250318_162430392.jpg","/img/008/InShot_20250318_162445706.jpg","/img/008/InShot_20250318_162504297.jpg","/img/008/InShot_20250318_162522525.jpg","/img/008/InShot_20250318_162540880.jpg","/img/008/InShot_20250318_162557605.jpg","/img/008/InShot_20250318_162621157.jpg","/img/008/InShot_20250318_162642824.jpg", "/img/008/InShot_20250318_162703138.jpg","/img/008/InShot_20250318_162716567.jpg","/img/008/InShot_20250331_163056432.jpg","/img/008/InShot_20250331_163114143.jpg","/img/008/InShot_20250331_163201062.jpg"], 
         link_detalhes: "/carrossel/8-carrossel/8carro.html", 
