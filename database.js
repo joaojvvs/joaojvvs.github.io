@@ -225,7 +225,7 @@ const imoveisDB = [
         financiamento: "Disponível",
         condominio: null,
         iptu: 182254,
-        descricao: "Área privativa de 146m², perfeita para quem busca espaço, privacidade e uma bela vista",
+        descricao: "Área privativa de 156m², perfeita para quem busca espaço, privacidade e uma bela vista",
         topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Vista privilegiada','Ampla área privativa','Churrasqueira']
     }
 ];
