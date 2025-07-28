@@ -221,9 +221,9 @@ const imoveisDB = [
         vagas: 1, 
         preco: 750000, 
         tipo: ["Apartamento","Área privativa"], 
-        comodidades: ["1vagas","1 por andar"], 
+        comodidades: ["1 vagas","1 por andar"], 
         financiamento: "Disponível",
-        condominio: null,
+        condominio: 630,
         iptu: 182254,
         descricao: "Área privativa de 156m², perfeita para quem busca espaço, privacidade e uma bela vista",
         topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Vista privilegiada','Ampla área privativa','Churrasqueira']
