@@ -99,7 +99,7 @@ const imoveisDB = [
         id: 6, 
         titulo: "Área privativa, 3 quartos à venda ", 
         endereco: ['Aeroporto', 'Belo Horizonte'], 
-        imagens: ["/img/006/InShot_20241227_153317820.jpg","/img/006/InShot_20241227_153350393.jpg","/img/006/InShot_20241227_153411707.jpg","/img/006/InShot_20241227_153426300.jpg","/img/006/InShot_20241227_153441274.jpg","/img/006/InShot_20241227_153455892.jpg","/img/006/InShot_20241227_153508521.jpg","/img/006/InShot_20241227_153522971.jpg"], 
+        imagens: ["/img/006/InShot_20250728_155158601.jpg","/img/006/InShot_20250728_155236396.jpg","/img/006/InShot_20250728_155301229.jpg","/img/006/InShot_20250728_155329273.jpg","/img/006/InShot_20250728_155353218.jpg","/img/006/InShot_20250728_155409210.jpg","/img/006/InShot_20250728_155434858.jpg","/img/006/InShot_20250728_155452302.jpg","/img/006/InShot_20250728_155512108.jpg"], 
         link_detalhes: "/carrossel/6-carrossel/6carro.html", 
         area: 93, 
         quartos: 3, 
