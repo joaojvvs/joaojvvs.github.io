@@ -145,7 +145,7 @@ const imoveisDB = [
         vagas: 1, 
         preco: 620000, 
         tipo: ["Apartamento","Área Privativa"], 
-        comodidades: ['Elevador','Salão de Festas','4 vaga'], 
+        comodidades: ['Elevador','Salão de Festas','1 vaga','Piscina','Academia','Espaço kids','Sala de jogos','Portaria física 24 hrs'], 
         financiamento: "Disponível",
         condominio: null,
         iptu: null,
