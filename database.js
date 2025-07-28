@@ -65,7 +65,7 @@ const imoveisDB = [
         link_detalhes: "/carrossel/4-carrossel/4carro.html", 
         area: 90, 
         quartos: 3, 
-        banheiros: 2, 
+        banheiros: 1, 
         vagas: 1, 
         preco: 300000, 
         tipo: ["Área Privativa","Apartamento"], 
