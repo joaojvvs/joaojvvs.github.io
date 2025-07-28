@@ -209,25 +209,25 @@ const imoveisDB = [
         descricao: "Localizado em uma excelente região, este apartamento de 93 m² oferece conforto e praticidade.",
         topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Armários','DCE']
     },
-    //{ 
-        //id: 12,
-        //titulo: "Apartamenteo tipo, Liberdade", 
-        //endereco: ['Liberdade', 'Belo Horizonte'], 
-        //imagens: [], 
-        //link_detalhes: "/carrossel/12-carrossel/12carro.html", 
-        //area: 83, 
-        //quartos: 3, 
-        //banheiros: 2, 
-        //vagas: 2, 
-        //preco: 596000, 
-        //tipo: ["Apartamento","tipo"], 
-        //comodidades: ["2vagas","Novo","Elevador"], 
-        //financiamento: "Disponível",
-        //condominio: null,
-        //iptu: null,
-        //descricao: "Localizado em uma excelente região, este apartamento de 93 m² oferece conforto e praticidade.",
-        //topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Armarios','DCE']
-    //}
+    { 
+        id: 12,
+        titulo: "Área privativa, 3 quartos à venda", 
+        endereco: ['Indaiá', 'Belo Horizonte'], 
+        imagens: [], 
+        link_detalhes: "/carrossel/12-carrossel/12carro.html", 
+        area: 146, 
+        quartos: 3, 
+        banheiros: 2, 
+        vagas: 1, 
+        preco: 750000, 
+        tipo: ["Apartamento","Área privativa"], 
+        comodidades: ["1vagas","1 por andar"], 
+        financiamento: "Disponível",
+        condominio: null,
+        iptu: null,
+        descricao: "Área privativa de 146m², perfeita para quem busca espaço, privacidade e uma bela vista",
+        topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Vista privilegiada','Ampla área privativa','Churrasqueira']
+    }
 ];
 
 
