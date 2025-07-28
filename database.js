@@ -8,7 +8,7 @@ const imoveisDB = [
          link_detalhes: "/carrossel/1-carrossel/1carro.html", 
          area: 118, 
          quartos: 4, 
-         banheiros: 2, 
+         banheiros: 3, 
          vagas: 2, 
          preco: 1480000, 
          tipo: ["Apartamento"], 
@@ -17,7 +17,7 @@ const imoveisDB = [
          iptu: null,
          condominio: null, 
          descricao: "Localização privilegiada no bairro Funcionários, próximo à comércios e com fácil acesso às principais vias, doando aconchego familiar, espaço, conforto e praticidade.",
-         topicos:['4 quartos (1 suíte com closet e sacada)','2 banhos','Cozinha','Sacada','Ampla área de serviço','1 Sala ampla para 2 ambientes','DCE'],
+         topicos:['4 quartos (1 suíte com closet e sacada)','3 banhos','Cozinha','Sacada','Ampla área de serviço','1 Sala ampla para 2 ambientes','DCE'],
     },
     { 
          id: 2,
