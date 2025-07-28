@@ -149,7 +149,7 @@ const imoveisDB = [
         financiamento: "Disponível",
         condominio: null,
         iptu: null,
-        descricao: "Área Privativa de 180m² bem localizada e próximo à comércios. Com elevador, 4 vagas de garagem e quartos com suíte.",
+        descricao: "Área Privativa de 103m² bem localizada e próximo à comércios. Com elevador, 1 vagas de garagem e quarto com suíte.",
         topicos:['2 quartos','2 banhos','Cozinha','2 Salas','Área de serviço']
     },
     { 
