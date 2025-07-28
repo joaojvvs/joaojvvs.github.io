@@ -55,7 +55,7 @@ const imoveisDB = [
         iptu: null,
         condominio: null,
         descricao: "Apartamento espetacular de 127m² projetado para oferecer conforto, espaço e praticidade.",
-        topicos:['4 quartos (1 suíte)','3 banhos','Cozinha espaçosa com boa visibilidade','Varanda de 12m²','Área de serviço separada','Salas amplas'],
+        topicos:['4 quartos (2 suíte)','3 banhos','Cozinha espaçosa com boa visibilidade','Varanda de 12m²','Área de serviço separada','Salas amplas'],
     },
     { 
         id: 4, 
