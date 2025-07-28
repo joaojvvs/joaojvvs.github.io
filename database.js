@@ -213,7 +213,7 @@ const imoveisDB = [
         id: 12,
         titulo: "Área privativa, 3 quartos à venda", 
         endereco: ['Indaiá', 'Belo Horizonte'], 
-        imagens: [], 
+        imagens: ["/img/012/InShot_20250129_133327976.jpg","/img/012/InShot_20250129_133358789.jpg","/img/012/InShot_20250129_133418715.jpg","/img/012/InShot_20250129_133446359.jpg","/img/012/InShot_20250129_133504553.jpg","/img/012/InShot_20250129_133530234.jpg","/img/012/InShot_20250129_133602455.jpg","/img/012/InShot_20250129_133631512.jpg","/img/012/InShot_20250129_133659853.jpg","/img/012/InShot_20250129_133718471.jpg","/img/012/InShot_20250129_133743458.jpg"], 
         link_detalhes: "/carrossel/12-carrossel/12carro.html", 
         area: 146, 
         quartos: 3, 
