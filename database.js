@@ -92,7 +92,7 @@ const imoveisDB = [
         financiamento: "Disponível",
         condominio: null,
         iptu: null,
-        descricao: "Apartamento novo com 80,09m², três quartos sendo um deles com suíte e predisposição para ar condicionado, banheiro social, sala para dois ambientes sendo eles jantar e tv, lavabo, cozinha estilo americana com rebaixamento em gesso, área de serviço separada e duas vagas paralelas sob pilotis. O imóvel possui sol da manhã, medidor individual de água, janelas com veneziana e elevador",
+        descricao: "Apartamento novo com 80,09m², três quartos sendo um deles com suíte e predisposição para ar condicionado, banheiro social, sala para dois ambientes sendo eles jantar e tv, lavabo, cozinha estilo americana com rebaixamento em gesso, área de serviço separada e duas vagas paralelas sob pilotis. O imóvel possui sol da manhã, medidor individual de água, janelas com veneziana.",
         topicos:['3 quartos (1 suíte)','2 banhos','lavabo','Cozinha espaçosa com boa visibilidade','Salas ampla'],
     },
     //{ 
@@ -168,8 +168,8 @@ const imoveisDB = [
         financiamento: "Disponível",
         condominio: null,
         iptu: null,
-        descricao: "Espaçoso apartamento no primeiro andar, 3 quartos e próximo ao comércio.",
-        topicos:['3 quartos','2 banhos','Cozinha','2 Salas','Área de serviço']
+        descricao: "Apartamento no primeiro andar, 3 quartos e próximo ao comércio.",
+        topicos:['3 quartos','1 banheiro','Lavabo','Cozinha','2 Salas','Área de serviço']
     },
     { 
         id: 10, 
