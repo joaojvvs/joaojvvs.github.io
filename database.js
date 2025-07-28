@@ -131,7 +131,7 @@ const imoveisDB = [
         condominio: null,
         iptu: null,
         descricao: "Área privativa de 103m² em excelente localização, contando com lazer completo.",
-        topicos:['2 quartos (1 suíte)','2 banhos', 'Lavanderia independente','Área coberta e descoberta','Sala para dois ambientes']
+        topicos:['4 quartos (2 suíte)','3 banhos','1 lavabo', 'Lavanderia independente','Área coberta e descoberta','Sala para dois ambientes']
     },
     { 
         id: 8, 
@@ -150,7 +150,7 @@ const imoveisDB = [
         condominio: null,
         iptu: null,
         descricao: "Área Privativa de 180m² bem localizada e próximo à comércios. Com elevador, 4 vagas de garagem e quartos com suíte.",
-        topicos:['4 quartos (2 suítes)','3 banhos','Cozinha','2 Salas','Varanda','Área de serviço']
+        topicos:['2 quartos','2 banhos','Cozinha','2 Salas','Área de serviço']
     },
     { 
         id: 9, 
