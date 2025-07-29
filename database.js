@@ -227,6 +227,25 @@ const imoveisDB = [
         iptu: 182254,
         descricao: "Área privativa de 156m², perfeita para quem busca espaço, privacidade e uma bela vista",
         topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Vista privilegiada','Ampla área privativa','Churrasqueira']
+    },
+     { 
+        id: 13,
+        titulo: "Casa, 3 quartos à venda", 
+        endereco: ['Liberdade', 'Belo Horizonte'], 
+        imagens: ["/img/012/InShot_20250728_163134641.jpg","/img/012/InShot_20250728_163152117.jpg","/img/012/InShot_20250728_163211531.jpg","/img/012/InShot_20250728_163238368.jpg","/img/012/InShot_20250728_163256398.jpg","/img/012/InShot_20250728_163313524.jpg","/img/012/InShot_20250728_163332601.jpg","/img/012/InShot_20250728_163348592.jpg","/img/012/InShot_20250728_163600374.jpg","/img/012/InShot_20250728_163617242.jpg"], 
+        link_detalhes: "/carrossel/13-carrossel/13carro.html", 
+        area: 360, 
+        quartos: 3, 
+        banheiros: 2, 
+        vagas: 2, 
+        preco: 850000, 
+        tipo: ["Casa"], 
+        comodidades: ["2 vagas"], 
+        financiamento: "Indisponível",
+        condominio: 0,
+        iptu: 2150000,
+        descricao: "Casa grande proxima de comercio",
+        topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Cola','Quintal','Área gourmert','Edícula']
     }
 ];
 
