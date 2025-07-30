@@ -143,7 +143,7 @@ const imoveisDB = [
         quartos: 2, 
         banheiros: 2, 
         vagas: 1, 
-        preco: 620000, 
+        preco: 549950, 
         tipo: ["Apartamento","Área Privativa"], 
         comodidades: ['Elevador','Salão de Festas','1 vaga','Piscina','Academia','Espaço kids','Sala de jogos','Portaria física 24 hrs'], 
         financiamento: "Disponível",
