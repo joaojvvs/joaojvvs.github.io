@@ -232,7 +232,7 @@ const imoveisDB = [
         id: 13,
         titulo: "Casa, 3 quartos à venda", 
         endereco: ['Liberdade', 'Belo Horizonte'], 
-        imagens: ["/img/012/InShot_20250728_163134641.jpg","/img/012/InShot_20250728_163152117.jpg","/img/012/InShot_20250728_163211531.jpg","/img/012/InShot_20250728_163238368.jpg","/img/012/InShot_20250728_163256398.jpg","/img/012/InShot_20250728_163313524.jpg","/img/012/InShot_20250728_163332601.jpg","/img/012/InShot_20250728_163348592.jpg","/img/012/InShot_20250728_163600374.jpg","/img/012/InShot_20250728_163617242.jpg"], 
+        imagens: ["/img/013/InShot_20250728_163134641.jpg","/img/013/InShot_20250728_163152117.jpg","/img/013/InShot_20250728_163211531.jpg","/img/013/InShot_20250728_163238368.jpg","/img/013/InShot_20250728_163256398.jpg","/img/013/InShot_20250728_163313524.jpg","/img/013/InShot_20250728_163332601.jpg","/img/013/InShot_20250728_163348592.jpg","/img/013/InShot_20250728_163600374.jpg","/img/013/InShot_20250728_163617242.jpg"], 
         link_detalhes: "/carrossel/13-carrossel/13carro.html", 
         area: 360, 
         quartos: 3, 
