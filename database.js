@@ -245,8 +245,28 @@ const imoveisDB = [
         condominio: 0,
         iptu: 2150000,
         descricao: "Casa grande proxima de comercio",
-        topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Cola','Quintal','Área gourmert','Edícula']
+        topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Quintal','Área gourmert','Edícula']
+    },
+     { 
+        id: 14,
+        titulo: "Casa, 3 quartos à venda", 
+        endereco: ['Liberdade', 'Belo Horizonte'], 
+        imagens: ["/img/012/","/img/012/","/img/012/","/img/012/","/img/012/","/img/012/","/img/012/","/img/012/","/img/012/","/img/012/"], 
+        link_detalhes: "/carrossel/14-carrossel/14carro.html", 
+        area: 105, 
+        quartos: 3, 
+        banheiros:2, 
+        vagas: 1, 
+        preco: 525000, 
+        tipo: ["Casa"], 
+        comodidades: ["1 vagas",'Sem condominio'], 
+        financiamento: "Disponível",
+        condominio: 0,
+        iptu: 118054,
+        descricao: " Casa geminada duplex, totalmente isenta de condomínio, em localização privilegiada.No interior, uma sala ampla e bem arejada para 2 ambientes ",
+        topicos:['3 quartos (1 suíte)','2 banhos','1 lavabo','Cozinha','Sala','Área de serviço','Armarios planejados']
     }
+
 ];
 
 
