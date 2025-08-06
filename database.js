@@ -259,13 +259,33 @@ const imoveisDB = [
         vagas: 1, 
         preco: 525000, 
         tipo: ["Casa"], 
-        comodidades: ["1 vagas",'Sem condominio'], 
+        comodidades: ["1 vagas","Sem condominio"], 
         financiamento: "Disponível",
         condominio: 0,
         iptu: 118054,
         descricao: " Casa geminada duplex, totalmente isenta de condomínio, em localização privilegiada.No interior, uma sala ampla e bem arejada para 2 ambientes ",
         topicos:['3 quartos (1 suíte)','2 banhos','1 lavabo','Cozinha','Sala','Área de serviço','Armarios planejados']
+    },
+     { 
+        id: 15,
+        titulo: "Sala comercial, a Venda", 
+        endereco: ['Prado', 'Belo Horizonte'], 
+        imagens: ["/img/015/","/img/015/","/img/015/","/img/015/","/img/015/","/img/015/","/img/015/","/img/015/","/img/015/","/img/015/"], 
+        link_detalhes: "/carrossel/15-carrossel/15carro.html", 
+        area: 43, 
+        quartos: NaN, 
+        banheiros:1, 
+        vagas: 0, 
+        preco: 290000, 
+        tipo: ["Sala"], 
+        comodidades: ["Elevador","Porteiro físico","Predio comercial"], 
+        financiamento: "Disponível",
+        condominio: 450,
+        iptu: 116627,
+        descricao: "Salas comerciais com possível negociação de móveis, próximo à avenida amazonas. Está em busca de um espaço comercial moderno e bem localizado para o seu empreendimento? Apresentamos a solução ideal para você! ",
+        topicos:['2 Salas','2 banheiros','Cozinha','Ar condicionado']
     }
+
 
 ];
 
