@@ -273,7 +273,7 @@ const imoveisDB = [
         imagens: ["/img/015/InShot_20250806_122307658.jpg","/img/015/InShot_20250806_122327622.jpg","/img/015/InShot_20250806_122346120.jpg","/img/015/InShot_20250806_122227221.jpg","/img/015/InShot_20250806_122249333.jpg","/img/015/InShot_20250806_122206540.jpg","/img/015/InShot_20250806_122134880.jpg"], 
         link_detalhes: "/carrossel/15-carrossel/15carro.html", 
         area: 43, 
-        quartos: NaN, 
+        quartos: 0, 
         banheiros:1, 
         vagas: 0, 
         preco: 290000, 
