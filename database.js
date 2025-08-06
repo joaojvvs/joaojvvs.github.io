@@ -282,8 +282,8 @@ const imoveisDB = [
         financiamento: "Disponível",
         condominio: 450,
         iptu: 116627,
-        descricao: "Salas comerciais com possível negociação de móveis, próximo à avenida amazonas. Está em busca de um espaço comercial moderno e bem localizado para o seu empreendimento? Apresentamos a solução ideal para você! ",
-        topicos:['2 Salas','2 banheiros','Cozinha','Ar condicionado']
+        descricao: "Salas comerciais integradas com possível negociação de móveis, próximo à avenida Amazonas. Está em busca de um espaço comercial moderno e bem localizado para o seu empreendimento? Apresentamos a solução ideal para você! ",
+        topicos:['2 Salas','1 banheiro','Cozinha','Ar condicionado']
     }
 
 
