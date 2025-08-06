@@ -289,7 +289,7 @@ const imoveisDB = [
         id: 16,
         titulo: "Casa residencial 4 quatos a venda", 
         endereco: ['Liberdade', 'Belo Horizonte'], 
-        imagens: ["/img/016/InShot_20250806_172839328.jpg","/img/016/InShot_20250806_172903396.jpg","/img/016/InShot_20250806_172756874.jpg","/img/016/InShot_20250806_172730231.jpg","/img/016/InShot_20250806_172927325.jpg","/img/016/InShot_20250806_172949674.jpg","/img/016/nShot_20250806_173027000.jpg","/img/016/InShot_20250806_173007884.jpg","/img/016/InShot_20250806_173128789.jpg","/img/016/InShot_20250806_173050509.jpg","/img/016/InShot_20250806_173110175.jpg","/img/016/InShot_20250806_173145413.jpg","/img/016/InShot_20250806_173203108.jpg","/img/016/InShot_20250806_173224096.jpg","/img/016/InShot_20250806_173244785.jpg","/img/016/InShot_20250806_173303617.jpg"], 
+        imagens: ["/img/016/InShot_20250806_172839328.jpg","/img/016/InShot_20250806_172903396.jpg","/img/016/InShot_20250806_172756874.jpg","/img/016/InShot_20250806_172730231.jpg","/img/016/InShot_20250806_172927325.jpg","/img/016/InShot_20250806_172949674.jpg","/img/016/InShot_20250806_173027000.jpg","/img/016/InShot_20250806_173007884.jpg","/img/016/InShot_20250806_173128789.jpg","/img/016/InShot_20250806_173050509.jpg","/img/016/InShot_20250806_173110175.jpg","/img/016/InShot_20250806_173145413.jpg","/img/016/InShot_20250806_173203108.jpg","/img/016/InShot_20250806_173224096.jpg","/img/016/InShot_20250806_173244785.jpg","/img/016/InShot_20250806_173303617.jpg"], 
         link_detalhes: "/carrossel/16-carrossel/16carro.html", 
         area: 360, 
         quartos: 4, 
@@ -302,7 +302,7 @@ const imoveisDB = [
         condominio: 0,
         iptu: 146288,
         descricao: "Adicional de uma edicula nos fundos com 02 quartos, sala, cozinha e banho,, totalmente independente.",
-        topicos:['4 Quartos','1 suíte','2 banheiro','Área de serviço','DCE']
+        topicos:['4 Quartos','1 suíte','2 banheiro','Área de serviço']
     }
 
 ];
