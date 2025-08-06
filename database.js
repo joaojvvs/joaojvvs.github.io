@@ -284,8 +284,26 @@ const imoveisDB = [
         iptu: 116627,
         descricao: "Salas comerciais integradas com possível negociação de móveis, próximo à avenida Amazonas. Está em busca de um espaço comercial moderno e bem localizado para o seu empreendimento? Apresentamos a solução ideal para você! ",
         topicos:['2 Salas','1 banheiro','Cozinha','Ar condicionado']
+    },
+ { 
+        id: 16,
+        titulo: "Casa residencial 4 quatos a venda", 
+        endereco: ['Liberdade', 'Belo Horizonte'], 
+        imagens: ["/img/016","/img/016/","/img/016/","/img/016/","/img/016/","/img/016/","/img/016/"], 
+        link_detalhes: "/carrossel/16-carrossel/16carro.html", 
+        area: 360, 
+        quartos: 4, 
+        banheiros:2, 
+        vagas: 2, 
+        preco: 1200000, 
+        tipo: ["Casa"], 
+        comodidades: ["2 vagas","Quintal","Jardim","Edicula"], 
+        financiamento: "Disponível",
+        condominio: 0,
+        iptu: 146288,
+        descricao: "Adicional de uma edicula nos fundos com 02 quartos, sala, cozinha e banho,, totalmente independente.",
+        topicos:['4 Quartos','1 suíte','2 banheiro','Área de serviço','DCE']
     }
-
 
 ];
 
