@@ -130,7 +130,7 @@ const imoveisDB = [
         financiamento: "Disponível",
         condominio: null,
         iptu: null,
-        descricao: "Área privativa de 103m² em excelente localização, contando com lazer completo.",
+        descricao: "Cobertura de 103m² em excelente localização, contando com lazer completo.",
         topicos:['4 quartos (2 suíte)','3 banhos','1 lavabo', 'Lavanderia independente','Área coberta e descoberta','Sala para dois ambientes']
     },
     { 
