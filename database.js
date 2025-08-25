@@ -287,7 +287,7 @@ const imoveisDB = [
     },
  { 
         id: 16,
-        titulo: "Casa residencial 4 quatos a venda", 
+        titulo: "Casa residencial 4 quartos a venda", 
         endereco: ['Liberdade', 'Belo Horizonte'], 
         imagens: ["/img/016/InShot_20250806_172839328.jpg","/img/016/InShot_20250806_172903396.jpg","/img/016/InShot_20250806_172756874.jpg","/img/016/InShot_20250806_172730231.jpg","/img/016/InShot_20250806_172927325.jpg","/img/016/InShot_20250806_172949674.jpg","/img/016/InShot_20250806_173027000.jpg","/img/016/InShot_20250806_173007884.jpg","/img/016/InShot_20250806_173128789.jpg","/img/016/InShot_20250806_173050509.jpg","/img/016/InShot_20250806_173110175.jpg","/img/016/InShot_20250806_173145413.jpg","/img/016/InShot_20250806_173203108.jpg","/img/016/InShot_20250806_173224096.jpg","/img/016/InShot_20250806_173244785.jpg","/img/016/InShot_20250806_173303617.jpg"], 
         link_detalhes: "/carrossel/16-carrossel/16carro.html", 
@@ -303,6 +303,25 @@ const imoveisDB = [
         iptu: 146288,
         descricao: "Adicional de uma edicula nos fundos com 02 quartos, sala, cozinha e banho,, totalmente independente.",
         topicos:['4 Quartos','1 suíte','2 banheiro','Área de serviço']
+    },
+ { 
+        id: 17,
+        titulo: "Apartamento residencial 3 quartos a venda", 
+        endereco: ['Liberdade', 'Belo Horizonte'], 
+        imagens: ["/img/017/InShot_20250825_150810518.jpg","/img/017/InShot_20250825_150848208.jpg","/img/017/InShot_20250825_150912673.jpg","/img/017/InShot_20250825_150940667.jpg","/img/017/InShot_20250825_150956647.jpg","/img/017/InShot_20250825_151013839.jpg","/img/017/InShot_20250825_151030861.jpg","/img/017/InShot_20250825_151046171.jpg"], 
+        link_detalhes: "/carrossel/17-carrossel/17carro.html", 
+        area: 67, 
+        quartos: 3, 
+        banheiros:1, 
+        vagas: 0, 
+        preco: 370000, 
+        tipo: ["Apartamento"], 
+        comodidades: ["interfone","Vaga de estacionamento"], 
+        financiamento: "Disponível",
+        condominio: 432,
+        iptu: 0,
+        descricao: "Ótimo apartamento 3 quartos próximo a comércio e a UFMG, com condomínio tranquilo e disponível para financiamento.(Excelente para moradia ou para investimento. )",
+        topicos:['3 Quartos','1 banheiro','Área de serviço']
     }
 
 ];
