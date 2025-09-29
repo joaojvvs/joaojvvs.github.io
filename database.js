@@ -276,7 +276,7 @@ const imoveisDB = [
         quartos: 0, 
         banheiros:1, 
         vagas: 0, 
-        preco: 290000, 
+        preco: 280000, 
         tipo: ["Sala"], 
         comodidades: ["Elevador","Porteiro físico","Predio comercial"], 
         financiamento: "Disponível",
