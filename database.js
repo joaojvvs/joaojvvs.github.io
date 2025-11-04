@@ -303,26 +303,26 @@ const imoveisDB = [
         iptu: 146288,
         descricao: "Adicional de uma edicula nos fundos com 02 quartos, sala, cozinha e banho,, totalmente independente.",
         topicos:['4 Quartos','1 suíte','2 banheiro','Área de serviço']
-    },
- { 
-        id: 17,
-        titulo: "Apartamento residencial 3 quartos a venda", 
-        endereco: ['Liberdade', 'Belo Horizonte'], 
-        imagens: ["/img/017/InShot_20250825_150810518.jpg","/img/017/InShot_20250825_150848208.jpg","/img/017/InShot_20250825_150912673.jpg","/img/017/InShot_20250825_150940667.jpg","/img/017/InShot_20250825_150956647.jpg","/img/017/InShot_20250825_151013839.jpg","/img/017/InShot_20250825_151030861.jpg","/img/017/InShot_20250825_151046171.jpg"], 
-        link_detalhes: "/carrossel/17-carrossel/17carro.html", 
-        area: 67, 
-        quartos: 3, 
-        banheiros:1, 
-        vagas: 0, 
-        preco: 370000, 
-        tipo: ["Apartamento"], 
-        comodidades: ["interfone","Vaga de estacionamento"], 
-        financiamento: "Disponível",
-        condominio: 432,
-        iptu: 0,
-        descricao: "Ótimo apartamento 3 quartos próximo a comércio e a UFMG, com condomínio tranquilo e disponível para financiamento.(Excelente para moradia ou para investimento. )",
-        topicos:['3 Quartos','1 banheiro','Área de serviço']
-    }
+    }//,
+ //{ 
+        //id: 17,
+        //titulo: "Apartamento residencial 3 quartos a venda", 
+        //endereco: ['Liberdade', 'Belo Horizonte'], 
+        //imagens: ["/img/017/InShot_20250825_150810518.jpg","/img/017/InShot_20250825_150848208.jpg","/img/017/InShot_20250825_150912673.jpg","/img/017/InShot_20250825_150940667.jpg","/img/017/InShot_20250825_150956647.jpg","/img/017/InShot_20250825_151013839.jpg","/img/017/InShot_20250825_151030861.jpg","/img/017/InShot_20250825_151046171.jpg"], 
+        //link_detalhes: "/carrossel/17-carrossel/17carro.html", 
+        //area: 67, 
+        //quartos: 3, 
+        //banheiros:1, 
+        //vagas: 0, 
+        //preco: 370000, 
+        //tipo: ["Apartamento"], 
+        //comodidades: ["interfone","Vaga de estacionamento"], 
+        //financiamento: "Disponível",
+        //condominio: 432,
+        //iptu: 0,
+        //descricao: "Ótimo apartamento 3 quartos próximo a comércio e a UFMG, com condomínio tranquilo e disponível para financiamento.(Excelente para moradia ou para investimento. )",
+        //topicos:['3 Quartos','1 banheiro','Área de serviço']
+    //}
 
 ];
 
