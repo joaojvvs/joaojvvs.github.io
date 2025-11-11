@@ -21,7 +21,7 @@ const imoveisDB = [
     },
     { 
          id: 2,
-         titulo: "Cobertura, 3 quartos à venda", 
+         titulo: "Cobertura Exclusiva no Bairro Liberdade: Espaço, Conforto e Localização Premium.", 
          endereco: ['Liberdade', 'Belo Horizonte'], 
          imagens: ["/img/002/InShot_20250409_132718657.jpg","/img/002/InShot_20250409_132756872.jpg","/img/002/InShot_20250409_132843381.jpg","/img/002/InShot_20250409_132910265.jpg","/img/002/InShot_20250409_132930055.jpg","/img/002/InShot_20250409_132946341.jpg","/img/002/InShot_20250409_133008420.jpg","/img/002/InShot_20250409_133035068.jpg","/img/002/InShot_20250409_133054342.jpg","/img/002/InShot_20250409_133115432.jpg","/img/002/InShot_20250409_133134809.jpg","/img/002/InShot_20250409_133150418.jpg"], 
          link_detalhes: "/carrossel/2-carrossel/2carro.html", 
@@ -35,7 +35,7 @@ const imoveisDB = [
          financiamento: "Disponível",
          iptu: null,
          condominio: null,
-         descricao: "Localização privilegiada, próximo ao Clube Jaraguá, na região da Pampulha",
+         descricao: "Adentre um living espaçoso, projetado para dois ambientes distintos, onde a luz natural é a protagonista, criando uma atmosfera acolhedora e arejada. A cozinha, funcional e ventilada, dá acesso a uma área de serviço reservada.A área íntima preserva o conforto e a privacidade, com dormitórios de dimensões generosas, todos capazes de acomodar uma cama king size e armários planejados com folga. A suíte master, com seu closet privativo, é um convite ao descanso.A localização é um capítulo à parte. Situada em uma rua serena do bairro Liberdade, esta cobertura une a paz de um refúgio urbano com a praticidade de ter um leque de comércios, escolas e supermercados a poucos minutos de caminhada.Uma propriedade singular para quem valoriza qualidade de vida. Entre em contato para agendar uma visita exclusiva.",
          topicos:['3 quartos (1 suíte com closet e sacada)','2 banhos','Cozinha espaçosa com boa visibilidade','Ótima área descoberta com ducha e vista definitiva','Churrasqueira','Área de serviço separada','2 Salas ampla','DCE'],
     },
     { 
