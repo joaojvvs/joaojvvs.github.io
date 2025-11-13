@@ -181,7 +181,7 @@ const imoveisDB = [
         quartos: 2, 
         banheiros: 2, 
         vagas: 2, 
-        preco: 490000, 
+        preco: 530000, 
         tipo: ["Apartamento"], 
         comodidades: ["Elevador","2 vagas","Portaria 24h","Piscina","Quadra","Sauna","Churrasqueira"], 
         financiamento: "Disponível",
@@ -192,7 +192,7 @@ const imoveisDB = [
     },
     { 
         id: 11, 
-        titulo: "Apartamento Tipo, 1 quartos à venda", 
+        titulo: "Apartamento Tipo, 2 quartos à venda", 
         endereco: ['Indaiá', 'Belo Horizonte'], 
         imagens: ["/img/11/InShot_20251031_174134905.jpg","/img/11/InShot_20251031_174212743.jpg","/img/11/InShot_20251031_174236514.jpg","/img/11/InShot_20251031_174314259.jpg","/img/11/InShot_20251031_174334172.jpg","/img/11/InShot_20251031_174358352.jpg"], 
         link_detalhes: "/carrossel/11-carrossel/11carro.html", 
