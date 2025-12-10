@@ -320,7 +320,7 @@ const imoveisDB = [
         financiamento: "Disponível",
         condominio: 300,
         iptu: 0,
-        descricao: "Espaço, conforto e segurança em uma localização privilegiada. Um apartamento feito para quem não abre mão de qualidade de vida. Diferenciais e Acabamento: ✨ Piso em Mármore, granito e laminado de madeira ✨ Acabamentos de primeira linha ☀️ Instalação de gás e aquecimento solar 🏢 Prédio com elevador",
+        descricao: "Espaço, conforto e segurança em uma localização privilegiada. Um apartamento feito para quem não abre mão de qualidade de vida.<br>Diferenciais e Acabamento: ✨ Piso em Mármore, granito e laminado de madeira ✨ Acabamentos de primeira linha ☀️ Instalação de gás e aquecimento solar 🏢 Prédio com elevador",
         topicos:['4 Quartos','3 banheiro','Área de serviço','DCE','Sala 2 ambientes','suite','closet','varanda']
     }
 
