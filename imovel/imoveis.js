@@ -7,7 +7,7 @@ function normalizarTexto(texto) {
 function formatarMoeda(input){
     let valor = input.value.replace(/\D/g, '');
     if (!valor){
-        input.valuer ='';
+        input.value ='';
         return
     }
     const valorNumerico = parseFloat(valor) / 100;
