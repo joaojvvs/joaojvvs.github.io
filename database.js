@@ -308,7 +308,7 @@ const imoveisDB = [
         id: 17,
         titulo: "Apartamento tipo 4 quartos a venda", 
         endereco: ['Liberdade', 'Belo Horizonte'], 
-        imagens: ["/img/017/InShot_20250825_150810518.jpg","/img/017/InShot_20250825_150848208.jpg","/img/017/InShot_20250825_150912673.jpg","/img/017/InShot_20250825_150940667.jpg","/img/017/InShot_20250825_150956647.jpg","/img/017/InShot_20250825_151013839.jpg","/img/017/InShot_20250825_151030861.jpg","/img/017/InShot_20250825_151046171.jpg"], 
+        imagens: ["/img/017/InShot_20251209_214116877.jpg","/img/017/InShot_20251209_214141891.jpg","/img/017/InShot_20251209_214542326.jpg","/img/017/InShot_20251209_214252465.jpg","/img/017/InShot_20251209_214450426.jpg","/img/017/InShot_20251209_214339305.jpg","/img/017/InShot_20251209_214314808.jpg","/img/017/InShot_20251209_214408375.jpg","/img/017/InShot_20251209_214433020.jpg","/img/017/InShot_20251209_214612670.jpg","/img/017/InShot_20251209_214631692.jpg","/img/017/InShot_20251209_214655161.jpg","/img/017/InShot_20251209_214741512.jpg"], 
         link_detalhes: "/carrossel/17-carrossel/17carro.html", 
         area: 139, 
         quartos: 4, 
