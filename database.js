@@ -4,7 +4,7 @@ const imoveisDB = [
         id: 18, 
         titulo: "Casa Alto Padrão com 4 Pavimentos", 
         endereco: ['Fernão Dias', 'Belo Horizonte'], 
-        imagens: ["/img/018/InShot_20251117_134049023.jpg", "/img/018/InShot_20251117_134129536.jpg", "/img/018/InShot_20251117_134206214.jpg", "/img/018/InShot_20251117_134206214.jpg", "/img/018/InShot_20251117_134441482.jpg", "/img/018/InShot_20251117_134530574.jpg", "/img/018/InShot_20251117_134552896.jpg", "/img/018/InShot_20251117_134615041.jpg", "/img/018/InShot_20251117_134653303.jpg", "/img/018/InShot_20251117_134726150.jpg", "/img/018/InShot_20251117_134352847.jpg", "/img/018/InShot_20251117_134854261.jpg", "/img/018/InShot_20251117_134912513.jpg", "/img/018/InShot_20251117_134932669.jpg", "/img/018/InShot_20251117_134950165.jpg"], 
+        imagens: ["/img/018/InShot_20251117_134049023.jpg", "/img/018/InShot_20251117_134129536.jpg", "/img/018/InShot_20251117_134206214.jpg", "/img/018/InShot_20251117_134441482.jpg", "/img/018/InShot_20251117_134530574.jpg", "/img/018/InShot_20251117_134552896.jpg", "/img/018/InShot_20251117_134615041.jpg", "/img/018/InShot_20251117_134653303.jpg", "/img/018/InShot_20251117_134726150.jpg", "/img/018/InShot_20251117_134352847.jpg", "/img/018/InShot_20251117_134854261.jpg", "/img/018/InShot_20251117_134912513.jpg", "/img/018/InShot_20251117_134932669.jpg", "/img/018/InShot_20251117_134950165.jpg"], 
         link_detalhes: "/carrossel/18-carrossel/18carro.html", 
         area: 384, 
         quartos: 4, 
