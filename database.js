@@ -1,6 +1,24 @@
 //nunca colocar dados pessoais
 const imoveisDB = [
-    { 
+   { 
+        id: 18, 
+        titulo: "Casa Alto Padrão com 4 Pavimentos", 
+        endereco: ['Fernão Dias', 'Belo Horizonte'], 
+        imagens: ["/img/018/InShot_20251117_134049023.jpg", "/img/018/InShot_20251117_134129536.jpg", "/img/018/InShot_20251117_134206214.jpg", "/img/018/InShot_20251117_134206214.jpg", "/img/018/InShot_20251117_134441482.jpg", "/img/018/InShot_20251117_134530574.jpg", "/img/018/InShot_20251117_134552896.jpg", "/img/018/InShot_20251117_134615041.jpg", "/img/018/InShot_20251117_134653303.jpg", "/img/018/InShot_20251117_134726150.jpg", "/img/018/InShot_20251117_134352847.jpg", "/img/018/InShot_20251117_134854261.jpg", "/img/018/InShot_20251117_134912513.jpg", "/img/018/InShot_20251117_134932669.jpg", "/img/018/InShot_20251117_134950165.jpg"], 
+        link_detalhes: "/carrossel/18-carrossel/18carro.html", 
+        area: 384, 
+        quartos: 4, 
+        banheiros: 4, 
+        vagas: 3, 
+        preco: 1340000,
+        tipo: ["Casa"], 
+        comodidades: ['Aquecimento solar','3 vagas','Piscina','Espaço Gourmet','Escritório','DCE'], 
+        financiamento: "Disponível", 
+        iptu: null,
+        condominio: null, 
+        descricao: "Imóvel imponente de alto padrão com 384m² distribuídos em 4 pavimentos. Possui acabamento refinado com piso em madeira de lei, varandas, escritório montado e uma incrível área de lazer completa com piscina e espaço gourmet para receber convidados.",
+        topicos:['4 Pavimentos','384m²','3 Quartos (1 Suíte)','Escritório com lavabo','Lazer completo com Piscina','DCE','Aquecimento Solar']
+    }, { 
         id: 17, 
         titulo: "Apartamento tipo 4 quartos a venda", 
         endereco: ['Liberdade', 'Belo Horizonte'], 
