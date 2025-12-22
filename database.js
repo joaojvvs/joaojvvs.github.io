@@ -4,7 +4,7 @@ const imoveisDB = [
     id: 20, 
     titulo: "Excelente Apartamento Espaçoso no Coração Eucarístico", 
     endereco: ['Coração Eucarístico', 'Belo Horizonte'], 
-    imagens: ["/img/020/1.jpg","/img/020/2.jpg","/img/020/3.jpg","/img/020/4.jpg","/img/020/5.jpg","/img/020/6.jpg","/img/020/7.jpg","/img/020/8.jpg","/img/020/9.jpg",],
+    imagens: ["/img/020/1.jpg","/img/020/2.jpg","/img/020/3.jpg","/img/020/4.jpg","/img/020/5.jpg","/img/020/6.jpg","/img/020/7.jpg","/img/020/8.jpg","/img/020/9.jpg"],
     link_detalhes: "/carrossel/20-carrossel/20carro.html", 
     area: 132, 
     quartos: 3, 
