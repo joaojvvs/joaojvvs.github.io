@@ -1,6 +1,25 @@
 //nunca colocar dados pessoais
 const imoveisDB = [
    { 
+    id: 20, 
+    titulo: "Excelente Apartamento Espaçoso no Coração Eucarístico", 
+    endereco: ['Coração Eucarístico', 'Belo Horizonte'], 
+    imagens: ["/img/020/1.jpg","/img/020/2.jpg","/img/020/3.jpg","/img/020/4.jpg","/img/020/5.jpg","/img/020/6.jpg","/img/020/7.jpg","/img/020/8.jpg","/img/020/9.jpg",],
+    link_detalhes: "/carrossel/20-carrossel/20carro.html", 
+    area: 132, 
+    quartos: 3, 
+    banheiros: 2, 
+    vagas: 1, 
+    preco: 580000, 
+    tipo: ["Apartamento"], 
+    comodidades: ['Vaga demarcada e livre', 'DCE', 'Área de serviço', 'Próximo à PUC'], 
+    financiamento: "Disponível", 
+    iptu: 683,
+    condominio: 240, 
+    descricao: "Excelente apartamento espaçoso com 132m² no bairro Coração Eucarístico. Localização privilegiada ao lado da PUC e próximo a todo tipo de comércio e transporte público. Ideal para moradia ou investimento!",
+    topicos: ['132m²', '3 Quartos (1 Suíte)', '2 Salas', '1 Vaga demarcada e livre', 'DCE', 'Ao lado da PUC']
+},
+   { 
         id: 18, 
         titulo: "Casa Alto Padrão com 4 Pavimentos", 
         endereco: ['Fernão Dias', 'Belo Horizonte'], 
