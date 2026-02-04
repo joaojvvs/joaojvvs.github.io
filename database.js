@@ -1,24 +1,24 @@
 //nunca colocar dados pessoais
 const imoveisDB = [
-  // { 
-   //id: 20, 
-   // titulo: "Excelente Apartamento Espaçoso no Coração Eucarístico", 
-   // endereco: ['Coração Eucarístico', 'Belo Horizonte'], 
-    //imagens: ["/img/020/1.jpg","/img/020/2.jpg","/img/020/3.jpg","/img/020/4.jpg","/img/020/5.jpg","/img/020/6.jpg","/img/020/7.jpg","/img/020/8.jpg","/img/020/9.jpg"],
-    //link_detalhes: "/carrossel/20-carrossel/20carro.html", 
-    //area: 132, 
-    //quartos: 3, 
-    //banheiros: 2, 
-   // vagas: 1, 
-   // preco: 580000, 
-   //tipo: ["Apartamento"], 
-   // comodidades: ['Vaga demarcada e livre', 'DCE', 'Área de serviço', 'Próximo à PUC'], 
-    //financiamento: "Disponível", 
-   // iptu: 683,
-    //condominio: 240, 
-    //descricao: "Excelente apartamento espaçoso com 132m² no bairro Coração Eucarístico. Localização privilegiada ao lado da PUC e próximo a todo tipo de comércio e transporte público. Ideal para moradia ou investimento!",
-    //topicos: ['132m²', '3 Quartos (1 Suíte)', '2 Salas', '1 Vaga demarcada e livre', 'DCE', 'Ao lado da PUC']
-//},
+{ 
+    id: 21, 
+    titulo: "Oportunidade: Lote de 500m² com Casa e Barracões no São Francisco", 
+    endereco: ['São Francisco', 'Belo Horizonte'], 
+    imagens: ["/img/021/1.jpg","/img/021/2.jpg","/img/021/3.jpg","/img/021/4.jpg","/img/021/5.jpg"","/img/021/6.jpg"","/img/021/7.jpg"","/img/021/8.jpg"],
+    link_detalhes: "/carrossel/21-carrossel/21carro.html", 
+    area: 500, 
+    quartos: 3, 
+    banheiros: 2, 
+    vagas: 2, 
+    preco: 100000000, // Insira o valor de venda aqui
+    tipo: ["Casa/Lote"], 
+    comodidades: ['Lote Plano', '2 Barracões extras', 'Área descoberta', 'Próximo à Av. Antônio Carlos'], 
+    financiamento: "Sob Consulta", 
+    iptu: 3600, // Insira o valor do IPTU se tiver
+    condominio: 0, 
+    descricao: "Procurando espaço de verdade em BH? Seja para construir ou moradia, este imóvel no Bairro São Francisco é a escolha certa. Lote de 500m² plano e bem aproveitado, incluindo 2 barracões de 2 quartos cada. Localização estratégica próxima à Av. Antônio Carlos.",
+    topicos: ['500m² de área total', 'Lote Plano', 'Casa com 3 Quartos', '2 Barracões de 2 quartos inclusos', 'Ideal para Construtores', 'Próximo à Av. Antônio Carlos']
+},
    { 
         id: 18, 
         titulo: "Casa Alto Padrão com 4 Pavimentos", 
