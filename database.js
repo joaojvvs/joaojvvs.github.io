@@ -4,7 +4,7 @@ const imoveisDB = [
     id: 23,
     titulo: "Excelente Casa Geminada de 3 Quartos no Bairro Liberdade",
     endereco: ['Liberdade', 'Belo Horizonte'],
-    imagens: ["/img/023/1.jpg","/img/023/2.jpg","/img/023/3.jpg","/img/023/4.jpg","/img/023/5.jpg","/img/023/6.jpg","/img/023/7.jpg","/img/023/8.jpg","/img/023/9.jpg","/img/023/10.jpg"],
+    imagens: ["/img/023/1.jpg","/img/023/2.jpg","/img/023/3.jpg","/img/023/4.jpg","/img/023/5.jpg","/img/023/6.jpg","/img/023/7.jpg","/img/023/8.jpg","/img/023/9.jpg"],
     link_detalhes: "/carrossel/23-carrossel/23carro.html",
     area: 82, 
     quartos: 3,
