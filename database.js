@@ -1,5 +1,24 @@
 //nunca colocar dados pessoais
 const imoveisDB = [
+    {
+    id: 23,
+    titulo: "Excelente Casa Geminada de 3 Quartos no Bairro Liberdade",
+    endereco: ['Liberdade', 'Belo Horizonte'],
+    imagens: ["/img/023/1.jpg","/img/023/2.jpg","/img/023/3.jpg","/img/023/4.jpg","/img/023/5.jpg","/img/023/6.jpg","/img/023/7.jpg","/img/023/8.jpg","/img/023/9.jpg","/img/023/10.jpg"],
+    link_detalhes: "/carrossel/23-carrossel/23carro.html",
+    area: 82, 
+    quartos: 3,
+    banheiros: 2,
+    vagas: 1,
+    preco: 370000,
+    tipo: ["Casa Geminada","Casa"],
+    comodidades: ['Próximo à UFMG','Condomínio Calmo e Seguro','Copa Separada','Cozinha Independente','Excelente para Investimento'],
+    financiamento: "Não",
+    iptu: 1087,
+    condominio: 0,
+    descricao: "Excelente oportunidade no Bairro Liberdade! Casa geminada com localização estratégica, próxima a colégios, supermercados, padarias e à UFMG. Situada em um condomínio calmo e seguro, é ideal para famílias ou investidores que buscam imóvel em região de alta demanda.",
+    topicos: ['Salas: Ampla sala para dois ambientes','Copa: Espaço dedicado para refeições em família','Quartos: 3 quartos confortáveis.','Banhos: 2 banheiros (sendo um social).','Cozinha: Independente, com excelente disposição.','Área de Serviço']
+},
 { 
     id: 21, 
     titulo: "Oportunidade: Lote de 500m² com Casa e Barracões no São Francisco", 
@@ -151,25 +170,6 @@ const imoveisDB = [
         descricao: "Área privativa de 156m², perfeita para quem busca espaço, privacidade e uma bela vista",
         topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Vista privilegiada','Ampla área privativa','Churrasqueira']
     },
-  {
-    id: 23,
-    titulo: "Excelente Casa Geminada de 3 Quartos no Bairro Liberdade",
-    endereco: ['Liberdade', 'Belo Horizonte'],
-    imagens: ["/img/023/1.jpg","/img/023/2.jpg","/img/023/3.jpg","/img/023/4.jpg","/img/023/5.jpg","/img/023/6.jpg","/img/023/7.jpg","/img/023/8.jpg","/img/023/9.jpg","/img/023/10.jpg"],
-    link_detalhes: "/carrossel/23-carrossel/23carro.html",
-    area: 82, 
-    quartos: 3,
-    banheiros: 2,
-    vagas: 1,
-    preco: 370000,
-    tipo: ["Casa Geminada","Casa"],
-    comodidades: ['Próximo à UFMG','Condomínio Calmo e Seguro','Copa Separada','Cozinha Independente','Excelente para Investimento'],
-    financiamento: "Não",
-    iptu: 1087,
-    condominio: 0,
-    descricao: "Excelente oportunidade no Bairro Liberdade! Casa geminada com localização estratégica, próxima a colégios, supermercados, padarias e à UFMG. Situada em um condomínio calmo e seguro, é ideal para famílias ou investidores que buscam imóvel em região de alta demanda.",
-    topicos: ['Localização Privilegiada no Liberdade','3 Quartos Confortáveis','Sala para 2 Ambientes e Copa','Cozinha Independente da Área de Serviço','Próximo a Faculdades e Comércios','Ambiente Familiar e Seguro']
-},
     { 
         id: 10, 
         titulo: "Apartamento Tipo, 2 quartos à venda", 
