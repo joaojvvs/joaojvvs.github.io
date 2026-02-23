@@ -207,7 +207,7 @@ const imoveisDB = [
     iptu: 180, // Valor estimado para o São Luiz
     descricao: "Oportunidade no Grand Resort Jaraguá! Apartamento com 2 quartos, suíte e o diferencial de 2 vagas de garagem. Viva em um verdadeiro resort com lazer completo no melhor ponto da Pampulha.",
     topicos: ['2 quartos (1 suíte)', '2 banhos', '2 vagas de garagem', 'Vista para piscina', 'Lazer de Resort']
-}
+},
     { 
         id: 9, 
         titulo: "Apartamento Tipo, 3 quartos à venda", 
