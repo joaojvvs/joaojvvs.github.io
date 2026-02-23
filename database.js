@@ -190,24 +190,24 @@ const imoveisDB = [
         topicos:['3 quartos (1 suíte)','2 banhos','Cozinha','Sala','Vista privilegiada','Ampla área privativa','Churrasqueira']
     },
     { 
-        id: 10, 
-        titulo: "Apartamento Tipo, 2 quartos à venda", 
-        endereco: ['São Luiz', 'Belo Horizonte'], 
-        imagens: ["/img/010/InShot_20240704_135821663.jpg", "/img/010/InShot_20240704_135841235.jpg", "/img/010/InShot_20240708_105527801.jpg", "/img/010/InShot_20240708_105647861.jpg", "/img/010/InShot_20240708_105704742.jpg", "/img/010/InShot_20240708_105730579.jpg", "/img/010/InShot_20240708_105813354.jpg", "/img/010/InShot_20240708_105906620.jpg", "/img/010/InShot_20240708_105926085.jpg", "/img/010/InShot_20240708_110207236.jpg", "/img/010/InShot_20240708_110247104.jpg", "/img/010/InShot_20240708_110306947.jpg", "/img/010/InShot_20240708_110346329.jpg", "/img/010/InShot_20240708_110426741.jpg", "/img/010/InShot_20240708_110446456.jpg"], 
-        link_detalhes: "/carrossel/10-carrossel/10carro.html", 
-        area: 54, 
-        quartos: 2, 
-        banheiros: 2, 
-        vagas: 2, 
-        preco: 530000, 
-        tipo: ["Apartamento"], 
-        comodidades: ["Elevador","2 vagas","Portaria 24h","Piscina","Quadra","Sauna","Churrasqueira"], 
-        financiamento: "Disponível",
-        condominio: null,
-        iptu: null,
-        descricao: "Se você busca conforto, segurança e lazer em um só lugar, esse apartamento é ideal para você!",
-        topicos:['2 quartos','2 banhos','Cozinha','Sala','Vista para piscina']
-    },
+    id: 10, 
+    titulo: "Apartamento Resort - 2 Quartos e 2 Vagas à venda", 
+    endereco: ['São Luiz', 'Belo Horizonte'], 
+    imagens: ["/img/010/InShot_20240704_135821663.jpg", "/img/010/InShot_20240704_135841235.jpg", "/img/010/InShot_20240708_105527801.jpg", "/img/010/InShot_20240708_105647861.jpg", "/img/010/InShot_20240708_105704742.jpg", "/img/010/InShot_20240708_105730579.jpg", "/img/010/InShot_20240708_105813354.jpg", "/img/010/InShot_20240708_105906620.jpg", "/img/010/InShot_20240708_105926085.jpg", "/img/010/InShot_20240708_110207236.jpg", "/img/010/InShot_20240708_110247104.jpg", "/img/010/InShot_20240708_110306947.jpg", "/img/010/InShot_20240708_110346329.jpg", "/img/010/InShot_20240708_110426741.jpg", "/img/010/InShot_20240708_110446456.jpg"], 
+    link_detalhes: "/carrossel/10-carrossel/10carro.html", 
+    area: 54, 
+    quartos: 2, 
+    banheiros: 2, 
+    vagas: 2, 
+    preco: 530000, 
+    tipo: ["Apartamento"], 
+    comodidades: ["Elevador", "Portaria 24h", "Academia", "Sauna", "Piscina com Deck Molhado", "Quadra de Tênis", "Espaço Gourmet", "Salão de Festas de Luxo"], 
+    financiamento: "Disponível",
+    condominio: 570,
+    iptu: 180, // Valor estimado para o São Luiz
+    descricao: "Oportunidade no Grand Resort Jaraguá! Apartamento com 2 quartos, suíte e o diferencial de 2 vagas de garagem. Viva em um verdadeiro resort com lazer completo no melhor ponto da Pampulha.",
+    topicos: ['2 quartos (1 suíte)', '2 banhos', '2 vagas de garagem', 'Vista para piscina', 'Lazer de Resort']
+}
     { 
         id: 9, 
         titulo: "Apartamento Tipo, 3 quartos à venda", 
