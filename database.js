@@ -4,7 +4,7 @@ const imoveisDB = [
         id: 2,
         titulo: "Cobertura Exclusiva no Bairro Liberdade: Espaço, Conforto e Localização Premium.", 
         endereco: ['Liberdade', 'Belo Horizonte'], 
-        imagens: ["/img/002/1.jpg","/img/002/2.jpg","/img/002/3.jpg","/img/002/4.jpg","/img/002/5.jpg","/img/002/6.jpg","/img/002/7.jpg","/img/002/8.jpg","/img/002/9.jpg"], 
+        imagens: ["/img/002/1.jpg","/img/002/2.jpg","/img/002/3.jpg","/img/002/4.jpg","/img/002/5.jpg","/img/002/6.jpg","/img/002/7.jpg","/img/002/8.jpg","/img/002/9.jpg","/img/002/10.jpg","/img/002/11.jpg","/img/002/12.jpg"], 
         link_detalhes: "/carrossel/2-carrossel/2carro.html", 
         area: 133, 
         quartos: 3, 
