@@ -17,7 +17,7 @@ const imoveisDB = [
         iptu: 2300,
         condominio: 250,
         descricao: "Adentre um living espaçoso, projetado para dois ambientes distintos, onde a luz natural é a protagonista, criando uma atmosfera acolhedora e arejada. A cozinha, funcional e ventilada, dá acesso a uma área de serviço reservada.A área íntima preserva o conforto e a privacidade, com dormitórios de dimensões generosas, todos capazes de acomodar uma cama king size e armários planejados com folga. A suíte master, com seu closet privativo, é um convite ao descanso.A localização é um capítulo à parte. Situada em uma rua serena do bairro Liberdade, esta cobertura une a paz de um refúgio urbano com a praticidade de ter um leque de comércios, escolas e supermercados a poucos minutos de caminhada.Uma propriedade singular para quem valoriza qualidade de vida. Entre em contato para agendar uma visita exclusiva.",
-        topicos:['3 quartos (1 suíte com closet e sacada)','2 banhos','Cozinha espaçosa com boa visibilidade','Ótima área descoberta com ducha e vista definitiva','Churrasqueira','Área de serviço separada','2 Salas ampla','DCE'],
+        topicos:['3 quartos (1 suíte com closet e sacada)','2 banhos','Cozinha espaçosa com boa visibilidade','Ótima área descoberta com ducha e vista definitiva','Área de serviço separada','2 Salas ampla','DCE'],
     },
     {
     id: 23,
