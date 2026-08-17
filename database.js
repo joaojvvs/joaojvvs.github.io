@@ -299,7 +299,7 @@ const imoveisDB = [
         tipo: ["Casa Geminada","Casa"],
         comodidades: ['Próximo à UFMG', 'Próximo ao comércio', 'Próximo à linha de ônibus Move', 'Próximo ao Conjunto Arquitetônico da Pampulha'],
         financiamento: "Não",
-        iptu: 1087,
+        iptu: 1200,
         condominio: 0,
         descricao: "Excelente localização, próximo à UFMG, comércio, linha de ônibus Move e ao Conjunto Arquitetônico da Pampulha.",
         topicos: ['3 quartos', 'Sala', 'Escritório', '2 banhos', 'Cozinha', 'Lavanderia']
