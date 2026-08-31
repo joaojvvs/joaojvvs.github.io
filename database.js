@@ -82,7 +82,7 @@ const imoveisDB = [
         endereco: ['Pampulha', 'Belo Horizonte'], 
         imagens: ["/img/007/InShot_20250715_144650199.jpg","/img/007/InShot_20250715_144708665.jpg","/img/007/InShot_20250715_144732701.jpg","/img/007/InShot_20250715_144754393.jpg","/img/007/InShot_20250715_144817242.jpg","/img/007/InShot_20250715_144109183.jpg","/img/007/InShot_20250715_144225286.jpg","/img/007/InShot_20250715_144247921.jpg","/img/007/InShot_20250715_144345073.jpg","/img/007/InShot_20250715_144414032.jpg", "/img/007/InShot_20250715_144502478.jpg"], 
         link_detalhes: "/carrossel/7-carrossel/7carro.html", 
-        area: 103, 
+        area: 182, 
         quartos: 4, 
         banheiros: 3, 
         vagas: 4, 
