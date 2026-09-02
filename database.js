@@ -80,7 +80,7 @@ const imoveisDB = [
         id: 7, 
         titulo: "Cobertura, 4 quartos à venda ", 
         endereco: ['Pampulha', 'Belo Horizonte'], 
-        imagens: ["/img/007/InShot_20250715_144650199.jpg","/img/007/InShot_20250715_144708665.jpg","/img/007/InShot_20250715_144732701.jpg","/img/007/InShot_20250715_144754393.jpg","/img/007/InShot_20250715_144817242.jpg","/img/007/InShot_20250715_144109183.jpg","/img/007/InShot_20250715_144225286.jpg","/img/007/InShot_20250715_144247921.jpg","/img/007/InShot_20250715_144345073.jpg","/img/007/InShot_20250715_144414032.jpg", "/img/007/InShot_20250715_144502478.jpg"], 
+        imagens: ["/img/007/1.jpg","/img/007/2.jpg","/img/007/3.jpg","/img/007/4.jpg","/img/007/5.jpg","/img/007/6.jpg","/img/007/7.jpg","/img/007/8.jpg","/img/007/9.jpg","/img/007/10.jpg", "/img/007/11.jpg", "/img/007/12.jpg", "/img/007/13.jpg", "/img/007/14.jpg"], 
         link_detalhes: "/carrossel/7-carrossel/7carro.html", 
         area: 182, 
         quartos: 4, 
