@@ -86,7 +86,7 @@ const imoveisDB = [
         quartos: 4, 
         banheiros: 3, 
         vagas: 4, 
-        preco: 2000000, 
+        preco: 2100000, 
         tipo: ["Apartamento","Cobertura"], 
         comodidades: ['Elevador','Salão de Festas','4 vaga','Área de Churrasco'], 
         financiamento: "Disponível",
