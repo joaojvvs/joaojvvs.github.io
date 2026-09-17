@@ -92,7 +92,7 @@ const imoveisDB = [
         financiamento: "Disponível",
         condominio: null,
         iptu: null,
-        descricao: "Cobertura de 103m² em excelente localização, contando com lazer completo.",
+        descricao: "Cobertura no Liberdade/Jaraguá, 04qts(02suites), 02salas, Banho social, Lavabo, Cozinha,Dispensa, Varanda , Terraço (estrutura p/piscina), 04vagad  ,Área Comum(área gounet), Prédio torre única , Aquecedor solar,182m², Valor 2.100.000",
         topicos:['4 quartos (2 suíte)','3 banhos','1 lavabo', 'Lavanderia independente','Área coberta e descoberta','Sala para dois ambientes']
     },
     { 
